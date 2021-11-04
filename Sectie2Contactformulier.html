@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>Contactformulier</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <section id="EersteSectie">
+            <header>
+                <h1>Contactformulier</h1>
+            </header>
+            <form name="contactformulier" method="POST" data-netlify="true">
+                <label for="naam">Naam:</label>
+                <input type="text" id="naam" name="naam">
+                <br>
+                <label for="mailadres">E-mail:</label>
+                <input type="email" id="mailadres" name="mailadres">
+                <br>
+                <label for="telnr">Telefoonnummer:</label>
+                <input type="tel" id="telnr" name="telefoonnummer">
+                <br>
+                <label for="leeftijd">Leeftijd:</label>
+                <input type="number" id="leeftijd" name="leeftijd" min="5" max="95" step="1">
+                <br>
+                <label for="geboortedatum">Geboortedatum:</label>
+                <input type="date" id="geboortedatum" name="geboortedatum">
+                <br>
+
+                <label>Geslacht:</label><br>
+                <input type="radio" id="man" name="geslacht" value="Man">
+                <label for="man" class="kliklabel">Man</label><br>
+                <input type="radio" id="vrouw" name="geslacht" value="Vrouw">
+                <label for="vrouw" class="kliklabel">Vrouw</label><br>
+                <input type="radio" id="overige" name="geslacht" value="Overige">
+                <label for="overige" class="kliklabel">Overige</label><br class="eindekeuzelijst">
+
+                <label>Favoriete keuken:</label><br>
+                <input type="checkbox" id="frans" name="fav_keuken">
+                <label for="frans" class="kliklabel">Frans</label><br>
+                <input type="checkbox" id="italiaans" name="fav_keuken">
+                <label for="italiaans" class="kliklabel">Italiaans</label><br>
+                <input type="checkbox" id="spaans" name="fav_keuken">
+                <label for="spaans" class="kliklabel">Spaans</label><br>
+                <input type="checkbox" id="arabisch" name="fav_keuken">
+                <label for="arabisch" class="kliklabel">Arabisch</label><br class="eindekeuzelijst">
+
+                <label for="kleurschort">Kleur schort:</label><br>
+                <input type="color" id="kleurschort" name="kleurschort"><br>
+
+                <label for="biografie">Biografie:</label><br>
+                <textarea name="biografie" id="biografie" cols="30" rows="10"></textarea><br>
+                <label for="recept">Recept uploaden:</label>
+                <input type="file" id="recept" name="recept"><br>
+                <label for="receptenwebsite">Receptenwebsite:</label>
+                <input type="url" id="receptenwebsite" name="receptenwebsite"><br>
+
+                <input type="submit" value="Verzenden" class="knop"><input type="reset" value="Wis invoer">
+
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer><a href="Index.html">Terug</a></footer>
+</body>

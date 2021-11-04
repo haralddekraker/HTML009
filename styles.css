@@ -1,0 +1,117 @@
+/*Het begint met de indeling voor een Android mobiele telefoon 360x640*/
+body {
+    width: 360px;
+    font-family: Tahoma, Verdana, Geneva, sans-serif; 
+    font-size: 18px;  
+}
+
+main {
+    margin: 10px; 
+    border: 7.5px ridge bisque ;
+}
+
+header {
+    max-width: 90%;
+    margin: 10px;
+}
+
+h1{ 
+    padding: 0px 5px 2px;  
+    border: 5px black  outset;
+    font-size: 20px;
+}
+
+p {
+    margin: 0px 15px;
+    line-height: 1.0;              
+}
+form > p {font-size: 18px;}
+
+label {     
+    margin: 5px 0px 5px 20px;
+    line-height: 1.0;
+    font-size: 18px;
+}
+
+input{
+    margin: 5px;
+    line-height: 1.0;
+    font-size: 18px;
+}
+input.knop{
+    margin-left: 20px;
+}
+
+#man, #vrouw, #overige, #frans, #italiaans, #spaans, #arabisch , #kleurschort, #biografie {margin: 5px 0px 5px 20px}
+.kliklabel {margin: 5px 0px 5px 5px}
+.eindekeuzelijst {margin-bottom: 20px;}
+
+li > a {
+    text-decoration: none;    
+}
+
+ol > li > ul {
+    list-style-type: square;
+}
+
+#EersteSectie{ 
+    margin-bottom: 5px;
+}
+
+.TussenSectie{
+    margin: 20px 0px 20px;    
+}
+
+.AutoMargin {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#LaatsteSectie {
+    margin-top: 5px;
+    background-color:lightcyan;     
+    border:5px solid greenyellow;
+    border-radius: 5px;
+}
+
+img {
+    width: 325px;   
+}
+
+figcaption {    
+    text-align: center;    
+    margin: 5px ;            
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        width: 800px;
+        font-size:14px;
+    }
+
+    main { 
+        background-color:lightcyan;
+    }
+    
+    #LaatsteSectie {
+        background-color:beige;
+        border: 5px solid darkseagreen
+    }
+
+    h1{ 
+        padding: 0px 5px;   
+        font-size: 16px
+    }
+    h1:hover { 
+        background-color: black;
+        color: white
+    }
+
+p {
+        line-height: 1.2;
+    }
+
+
+    img {width: 100%;
+    }   
+}
